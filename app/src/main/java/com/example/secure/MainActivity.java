@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     {
 
         GPSTracker gps = new GPSTracker(MainActivity.this);
-        //check if GPS is enable
+        //check if GPS is enabl
 
         if(gps.canGetLocation()){
             double latitude = gps.getLatitude();
