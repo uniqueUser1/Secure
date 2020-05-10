@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A SAFER YOU"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textColor="#2b33cd"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:layout_width="240px"
+        android:layout_height="80px"
+        android:id="@+id/imageButton"
+        android:src="@drawable/button_register"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:onClick="register" />
+
+    <ImageButton
+        android:layout_width="240px"
+        android:layout_height="80px"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="right"
+        android:src="@drawable/button_edit"
+        android:layout_marginTop="-40dp"
+        android:layout_marginRight="15dp"
+        android:onClick="edit" />
+
+    <ImageButton
+        android:layout_width="240px"
+        android:layout_height="80px"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/button_call"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:onClick="call" />
+
+    <ImageButton
+        android:layout_width="240px"
+        android:layout_height="80px"
+        android:id="@+id/imageButton4"
+        android:layout_gravity="right"
+        android:src="@drawable/button_message"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-40dp"
+        android:onClick="message" />
+
+    <ImageButton
+        android:layout_width="240px"
+        android:layout_height="80px"
+        android:id="@+id/imageButton5"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/button_list"
+        android:layout_marginTop="40dp"
+        android:onClick="list" />
+</LinearLayout>
+
